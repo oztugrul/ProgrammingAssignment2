@@ -43,7 +43,7 @@ cacheSolve <- function(x, ...) {
 }
 
 
-#Examples with makeCacheMatrix and cacheSolve functions 
+#Examples with makeCacheMatrix()and cacheSolve() functions 
 
 cache_matrix<-makeCacheMatrix(matrix(c(2,4,14,6,19,3,7,23,0), 3, 3))
 cache_matrix$set(matrix(c(2,4,14,6,19,3,7,23,0), 3, 3))
